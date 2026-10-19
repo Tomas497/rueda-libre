@@ -1,0 +1,27 @@
+BITÁCORA - RUEDA LIBRE
+
+
+1. PETICIÓN DEL DOCUMENTO (Live Server)
+- URL completa: http://127.0.0.1:5500/index.html
+- Protocolo: http
+- Host: 127.0.0.1
+- Puerto: 5500
+- Ruta: /index.html
+- Método: GET
+- Código de estado: 200 OK
+
+2. RUTA INEXISTENTE
+- URL probada: http://127.0.0.1:5500/promociones.html
+- Código de respuesta: 404 not found.
+- Significado: el servidor recibió la petición y está funcionando, pero
+  no existe ningún archivo o recurso en esa ruta.
+
+3. ROL DE HTML, CSS Y JAVASCRIPT EN RUEDA LIBRE
+- HTML (estructura y contenido): define qué hay en la página. Ejemplo: la
+  lista de bicicletas disponibles, cada una con su nombre, foto y precio
+  por hora usando <h2>, <img> y <p>.
+- CSS (presentación): define cómo se ve. Ejemplo: colores de la marca,
+  tarjetas de bicicletas en cuadrícula y un diseño que se adapta al celular.
+- JavaScript (comportamiento): define cómo reacciona la página. Ejemplo: un
+  formulario de reserva que calcula el costo total según las horas elegidas
+  y avisa si falta algún dato.
