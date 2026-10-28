@@ -4,21 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Rueda Libre: alquiler de bicicletas y recorridos guiados por Medellín.">
-<title>Rueda Libre | Alquiler de bicicletas en Medellín</title>
+<title>Rueda Libre - Alquiler de bicicletas en Medellín</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/estilos.css">
 </head>
+
+
 <body>
 <a href="#contenido" class="saltar-contenido">Saltar al contenido</a>
- 
-<div class="recuadro">
-  <p>Rueda Libre</p>
-</div>
- 
+
 <header>
-  <img src="img/logo.png" alt="Logo de Rueda Libre" width="150">
+ <a class="marca" href="index.html">
+    <img src="img/logo.png" alt="" width="150">
+  </a>
   <nav>
     <ul>
       <li><a href="index.html" aria-current="page">Inicio</a></li>
@@ -81,7 +81,78 @@
     <p><a href="paginas/reservas.html" class="btn-reserva">Reservar ahora</a></p>
   </section>
  
-  <section>
+<section id = "flota">
+  <h2>Nuestra flota</h2>
+  <p>Contamos con una variedad de bicicletas para satisfacer tus necesidades. Nuestra flota está compuesta por bicicletas urbanas, de montaña y eléctricas, todas en perfecto estado y listas para que disfrutes de tu paseo.</p>
+  <div class="cuadricula-flotas"></div>
+</section>
+
+<section>
+<div class = "contenedor-flota">
+ <div class = "cuadro-flota">
+    <div class = "imagen-bici">
+      <img src = "img/urbana.png" alt = "Bicileta Urbana" WIdth = "150">
+    </div>
+    <h3>Urbana Clásica</h3>
+    <p class = "Descripcion">Cómoda y liviana para las ciclorrutas.</p>
+    <p class = "Precio">Precio: $10,000 por día</p>
+    <a href = "paginas/reservas.html" class = "btn-reserva">Reservar</a>
+  </div>
+
+  <div class = "cuadro-flota">
+    <div class = "imagen-bici">
+      <img src = "img/plegable.png" alt = "Bicileta Urbana" WIdth = "150">
+    </div>
+    <h3>Urbana Plegable</h3>
+    <p class = "Descripcion">Se dobla en segundos; ideal para combinar con el metro.</p>
+    <p class = "Precio">Precio: $12,000 por día</p>
+    <a href = "paginas/reservas.html" class = "btn-reserva">Reservar</a>
+  </div>
+
+  <div class = "cuadro-flota">
+    <div class = "imagen-bici">
+      <img src = "img/montaña2.png" alt = "Bicileta Urbana" WIdth = "150">
+    </div>
+    <h3>Montaña Trail</h3>
+    <p class = "Descripcion">Suspensión delantera y 21 cambios para las subidas.</p>
+    <p class = "Precio">Precio: $15,000 por día</p>
+    <a href = "paginas/reservas.html" class = "btn-reserva">Reservar</a>
+  </div>
+
+  <div class = "cuadro-flota">
+    <div class = "imagen-bici">
+      <img src = "img/aventura.png" alt = "Bicileta Urbana" WIdth = "150">
+    </div>
+    <h3>Gravel Aventura</h3>
+    <p class = "Descripcion">Bicicleta ideal para desplazamientos de grava y terrenos irregulares.</p>
+    <p class = "Precio">Precio: $18,000 por día</p>
+    <a href = "paginas/reservas.html" class = "btn-reserva">Reservar</a>
+  </div>
+
+  <div class = "cuadro-flota">
+    <div class = "imagen-bici">
+      <img src = "img/electrica.png" alt = "Bicileta Urbana" WIdth = "150">
+    </div>
+    <h3>Eléctrica Urbana</h3>
+    <p class = "Descripcion">Asistencia eléctrica con 45 km de autonomía.</p>
+    <p class = "Precio">Precio: $25,000 por día</p>
+    <a href = "paginas/reservas.html" class = "btn-reserva">Reservar</a>
+  </div>
+
+  <div class = "cuadro-flota">
+    <div class = "imagen-bici">
+      <img src = "img/infantil.png" alt = "Bicileta Urbana" WIdth = "150">
+    </div>
+    <h3>Bicicleta Infantil</h3>
+    <p class = "Descripcion">Para niños de 6 a 10 años.</p>
+    <p class = "Precio">Precio: $8,000 por día</p>
+    <a href = "paginas/reservas.html" class = "btn-reserva">Reservar</a>
+  </div>
+</div>
+</section>
+
+
+<section>
     <h2>¿Cómo alquilar?</h2>
     <p>Alquilar con nosotros es fácil. Pasa por nuestro local, que encuentras en la sección <a href="#encuentranos">Encuéntranos</a>, y sigue estos pasos.</p>
     <ol>
@@ -100,16 +171,30 @@
  
   <section>
     <h2 id="encuentranos">Encuéntranos</h2>
-    <p>Estamos en el centro de Medellín. <a href="https://www.google.com/maps/search/?api=1&query=Centro+de+Medellin" target="_blank" rel="noopener">Ver nuestra ubicación en el mapa (se abre en otra pestaña)</a> o escríbenos a <a href="mailto:hola@ruedalibre">hola@ruedalibre.</a>.</p>
+    <p>Estamos en el centro de Medellín. <a href="https://www.google.com/maps/search/?api=1&query=Centro+de+Medellin" target="_blank" rel="noopener">Mira nuestra ubicación en el mapa</a> o escríbenos a <a href="mailto:hola@ruedalibre">hola@ruedalibre</a>.</p>
   </section>
 </main>
  
 <footer>
-  <p>Rueda Libre · <a href="mailto:hola@ruedalibre">hola@ruedalibre</a> · 2026</p>
+  <div class="pie-bloque">
+    <h2>Rueda Libre</h2>
+    <p>Alquiler de bicicletas y recorridos guiados por Medellín.</p>
+    <p>2026</p>
+  </div>
+  <div class="pie-bloque">
+    <h2>Contacto</h2>
+    <p><a href="mailto:hola@ruedalibre">hola@ruedalibre</a></p>
+    <p>Centro de Medellín</p>
+  </div>
+  <div class="pie-bloque">
+    <h2>Horario</h2>
+    <p>Lunes a viernes: 7:00 a. m. a 7:00 p. m.</p>
+    <p>Sábados, domingos y festivos: 6:00 a. m. a 2:00 p. m.</p>
+  </div>
 </footer>
  
 <a class="whatsapp" href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer">
-     <img src="img/whats.png" alt="Link al contacto de WhatsApp" width="85"/>
+     <img src="img/whats.png" alt="Link al contacto de WhatsApp" width="75"/>
 </a>
 </body>
 </html>
